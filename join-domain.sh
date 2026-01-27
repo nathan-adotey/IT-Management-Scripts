@@ -19,9 +19,10 @@ if [[ $EUID -ne 0 ]]; then
     exit 99
 fi
 # Verify required realmd packages
+# Place a package in an array if it cannot be queried by the rpm package manager
 echo -e "Verifying realmd packages..."
 for package in "${REALMD_RPM_PACKAGES[@]}"; do
-    if ! rpm -qa ${package} > /dev/null; then # Place a package in an array if it cannot be queried by the rpm package manager
+    if ! rpm -qa ${package} > /dev/null; then
 	MISSING_PACKAGES+="${package}"
     fi
 done
@@ -44,18 +45,22 @@ while true; do
         break
     fi
 done
+# Cache the user's input as the discoverable domain
 while true; do
     clear
-    read -p "Enter the domain you would wish to join this workstation/server to: " DOMAIN # Cache the user's input as the discoverable domain
+    read -p "Enter the domain you would wish to join this workstation/server to: " DOMAIN 
     if [[ "$DOMAIN" != "" ]]; then
         break
     fi
 done
 clear
-hostnamectl hostname $HOSTNAME # Change the system's hostname
+# Change the system's hostname
+hostnamectl hostname $HOSTNAME
+# Initiate domain join sequences
 echo -e "Attempting to join $DOMAIN..."
 sleep 2
-if sudo realm discover "$DOMAIN" 2> /dev/null ; then # Prompt the user to authenicate as a domain user if such domain is discoverable (defaults to Administrator)
+# Prompt the user to authenicate as a domain user if such domain is discoverable (defaults to Administrator)
+if sudo realm discover "$DOMAIN" 2> /dev/null; then 
     read -p "Enter a domain user that can authenicate on $DOMAIN (An empty response will default to the Administrator user): " USER #
     if [ -z "$USER" ]; then
         USER="Administrator"  
