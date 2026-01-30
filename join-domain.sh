@@ -5,7 +5,7 @@
 #   [-] Required packages must be managable with the rpm, yum, or dnf package managers
 #   [-] Re-configures the system hostname
 #
-# Developer(s) w/Role: Sample Developer, System Engineer II
+# Developer(s) w/Role: Nathan Adotey, Linux Systems Engineer II
 #
 # Declare/initialize arrays
 REALMD_RPM_PACKAGES=("realmd" "sssd" "oddjob" "oddjob-mkhomedir" "adcli" "samba-common-tools" "krb5-workstation" "authselect-compat")
