@@ -8,7 +8,7 @@
 #     c. The system's/network's firewall must allow kerberos traffic (port 88 by default)
 # [-] Relies on the RPM package manager to verify required packages
 # [-] Changes the system hostname using the systemd-hostnamed daemon
-# [-] Fort Drum TMTC, Jan 2026
+# [-] Authored by Nathan Adotey, Linux Systems Administrator II, Jan 2026
 
 # Required packages
 REALMD_RPM_PACKAGES=("realmd" "sssd" "oddjob" "oddjob-mkhomedir" "adcli" "samba-common-tools" "krb5-workstation" "authselect-compat")
