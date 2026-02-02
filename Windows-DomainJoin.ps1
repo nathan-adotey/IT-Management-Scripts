@@ -5,7 +5,7 @@
 #     b. A DNS query must be able to resolve the domain controller's hostname
 #     c. The system's/network's firewall must allow kerberos traffic (port 88 by default)
 # [-] Changes the system hostname after reboot
-# [-] Fort Drum TMTC, Jan 2026
+# [-] Authored by Nathan Adotey, Linux Systems Administrator II, Jan 2026
 
 # --- Functions ---
 
