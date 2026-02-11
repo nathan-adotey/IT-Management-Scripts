@@ -21,10 +21,6 @@ As a Linux System Administrator III with other half a decade of IT experience, I
 Each script is written with good programming fundamentals and flow control for ease of use and minimal system errors. Feel free to modify,
 clone, or re-purpose each script for your own use!
 
-* Souls
-* Action/Adventure games
-* Hack N' Slashes
-
 ### Getting started
 1. Install one of the following IDEs or code editors
    * [Visual Studio IDE](https://visualstudio.microsoft.com/downloads/)
