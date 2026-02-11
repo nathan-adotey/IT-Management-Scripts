@@ -35,32 +35,16 @@ aims to support the following genres:
 * Action/Adventure games
 * Hack N' Slashes
 
-### Installation
-
-_Below is an example on how to utilize this plugin_
-1. Ensure the following software is installed and configured on your local system:
+### Getting started
+1. Install one of the following IDEs or code editors
    * [Visual Studio IDE](https://visualstudio.microsoft.com/downloads/)
-   * [Epic Games Launcher](https://www.unrealengine.com/en-US/download/)
+   * [Visual Studio Code](https://code.visualstudio.com/)
+   * [Sublime Text](https://www.sublimetext.com/)
 
 2. Clone the repository
    ```sh
-   git clone https://github.com/nathan-adotey/UE-Combat-Framework-Plugin.git
+   git clone https://github.com/nathan-adotey/IT-Management-Scripts.git
    ```
-
-3. Integrate the plugin into an Unreal Engine project
-   * Navigate to your project and create a Plugins folder if one has not been created yet
-   * Create a subfolder within the Plugins directory
-   * Copy the plugin contents into the newly created subfolder
-
-4. Rebuild your project solution (if necessary)
-   _Do this step only if you already have an existing project solution (i.e. if you have existing C++ source code)
-   * Right click the .uproject file and select "Generate Visual Studio project files"
-   * Once completed, open the newly created .sln file
-   * Navigate to the top of the IDE and press build
-   * Resolve compilation errors and debug your project (the plugin should be enabled automatically once the editor is loaded)
-   
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- ROADMAP -->
 ## Roadmap
 
