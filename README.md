@@ -31,21 +31,3 @@ clone, or re-purpose each script for your own use!
    ```sh
    git clone https://github.com/nathan-adotey/IT-Management-Scripts.git
    ```
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Inventory
-- [x] HUD
-- [x] Player Stats
-- [ ] Save management system
-- [ ] AI
-- [ ] World partitioning
-- [ ] Updated YouTube presentation demos
-- [ ] AWS CI/CD Integration
-- [ ] Steam API
-- [x] Combat mechanics
-    - [x] Ground Combos
-    - [x] Aerial Combos
-    - [ ] Transformations
-    - [ ] Projectiles
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
