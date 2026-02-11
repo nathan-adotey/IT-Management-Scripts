@@ -8,7 +8,7 @@
     <br />
     <a href="https://github.com/nathan-adotey/">GitHub</a>
     &middot;
-    <a href="https://www.google.com">Report Bug</a>
+    <a href="https://learn.microsoft.com/en-us/powershell/?view=powershell-7.5">PowerShell Documentation</a>
     &middot;
     <a href="https://www.google.com">Request Feature</a>
   </p>
