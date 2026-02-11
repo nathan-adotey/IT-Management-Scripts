@@ -10,7 +10,7 @@
     &middot;
     <a href="https://learn.microsoft.com/en-us/powershell/?view=powershell-7.5">PowerShell Documentation</a>
     &middot;
-    <a href="https://www.google.com">Request Feature</a>
+    <a href="https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html">Bash Reference Page</a>
   </p>
 </div>
 
