@@ -1,35 +1,25 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a id="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
 
 <!-- PROJECT LOGO -->
 <div align="center">
-  <h3 align="center">Combat Framework Plugin</h3>
+  <h3 align="center">IT Automation Scripts</h3>
   <p align="center">
-    Universal combat framework designed for Unreal Engine projects 
+    Simple IT automation template scripts; designed to handle standalone tasks in any environment. 
     <br />
-    Supports Unreal Engine versions 5.0 and up
-    <br />
-    <a href="https://www.youtube.com/@CRYFALLPRODUCTIONS ">YouTube</a>
+    <a href="https://github.com/nathan-adotey/">GitHub</a>
     &middot;
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://www.google.com">Report Bug</a>
     &middot;
-    <a href="https://github.com/othneildrew/Best-README-Template/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://www.google.com">Request Feature</a>
   </p>
 </div>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Originally an internal project, the shift to publicize this plugin was made to enahnce the indie action RPG landscape. Smart, modular 
-development practices enable any game developer to maximize this plugin's features without affecting already-existing mechanics. This plugin
-aims to support the following genres:
+As a Linux System Administrator III with other half a decade of IT experience, I developed a library of standalone scripts to handle tier II-III tasks.
+Each script is written with good programming fundamentals and flow control for ease of use and minimal system errors. Feel free to modify,
+clone, or re-purpose each script for your own use!
 
 * Souls
 * Action/Adventure games
